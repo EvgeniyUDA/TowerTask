@@ -1,0 +1,201 @@
+body{
+    background: linear-gradient(249.06deg, #007EA6 -0.88%, rgba(3, 186, 243, 0.91) -0.87%, rgba(148, 219, 241, 0.91046) -0.86%, #22AEDA 95.85%);
+    padding-left: 120px;
+    margin-left: 0;
+    height: 100vh;
+    align-items: center;
+    display: grid;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.btn {
+    width: 319px;
+    height: 75px;
+    background-color: rgb(217,246,255);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    outline: 0;
+}
+.btn p{
+    text-align: center;
+    font-family: "btn_look_font";
+    font-weight: bolder;
+    color: rgb(30,193,245);
+    font-size: 18px;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(55,134,177);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.big-left-text{
+    font-family: "btn_look_font";
+    font-size: 48px;
+    font-weight: bolder;
+    color: rgb(255,255,255);
+    margin: 0;
+}
+.centr-left-elements{
+    display: grid;
+    gap: 90px;
+}
+.centr-right-elements{
+    margin-left: 500px;
+}
+header{
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    align-self: start;
+
+}
+.top-buttons {
+    display: flex;
+    padding: 0;
+    width: 702px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    margin-left: 355.51px;
+}
+.top-buttons button{
+    background-color: rgba(255,255,255,0);
+    color: rgb(236,248,252);
+    height: 60px;
+    width: 175.5px;
+    outline: 0;
+    font-family: "top-buttons-font";
+    font-size: 20px;
+}
+.top-buttons-un:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.ellipse-all{
+    background-color: rgba(239, 251, 255, 1);
+    border-radius: 50%;
+    position: absolute;
+}
+#ellipse1 {
+    width: 63px;
+    height: 64px;
+    right: 338px;
+    top: -52px;
+}
+#ellipse2 {
+    width: 36px;
+    height: 36px;
+    right: 467px;
+    z-index: 2;
+}
+#ellipse3 {
+    width: 18px;
+    height: 18px;
+    left: -126px;
+    top: 78px;
+}
+#ellipse4 {
+    width: 157.39px;
+    height: 127.88px;
+    left: -49px;
+    bottom: 263px;
+}
+#ellipse5 {
+    width: 77px;
+    height: 74px;
+    left: -188px;
+    top: 369px;
+}
+#ellipse6 {
+    width: 50px;
+    height: 50px;
+    left: -27px;
+    top: 236px;
+}
+#ellipse7 {
+    width: 36px;
+    height: 36px;
+    left: -352px;
+    top: 703px;
+}
+#ellipse8 {
+    width: 15px;
+    height: 15px;
+    left: -400px;
+    top: 514px;
+}
+#ellipse9 {
+    width: 100px;
+    height: 100px;
+    left: 39px;
+    top: 53px;
+}
+#ellipse10 {
+    width: 37px;
+    height: 36px;
+    left: -331px;
+    top: 10px;
+}
+#ellipse11 {
+    width: 54px;
+    height: 54px;
+    left: -244px;
+    top: 196px;
+}
+#ellipse12{
+    width: 114px;
+    height: 165px;
+    right: 343px;
+    top: 131px;
+}
+.content {
+    display: flex;
+}
+.towerAndFigure{
+    display: flex;
+    width: 776.03px;
+    height: 803px;
+    justify-content: center;
+    position: relative;
+    margin-left: 392px;
+    margin-bottom: 120px;
+}
+.towerBlock{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.bigFigure{
+    position: relative;
+    left: 32px;
+}
+.tower{
+    z-index: 1;
+    position: relative;
+    clip-path: ellipse(111% 50% at 52% 49%);
+    top: 12px;
+    right: 615px;
+}
+button{
+    border: none;
+}
+@font-face {
+    font-family: "btn_look_font";
+    src: url(fontsForTower/Montserrat/static/Montserrat-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "top-buttons-font";
+    src:url(fontsForTower/Montserrat/static/Montserrat-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* mobile */
